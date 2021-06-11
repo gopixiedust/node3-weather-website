@@ -129,6 +129,6 @@ app.get('/weather',(req,res) => {
 //app.com/about
 
 
-app.listen(3000, () => {
+app.listen(PORT, () => {
     console.log('Server rocks')
 })
