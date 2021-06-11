@@ -5,6 +5,7 @@ const geocode = require('./utils/geocode')
 const forcast = require('./utils/forecast')
 
 const app = express()
+const port = process.env.PORT || 3000
 
 //console.log(__dirname)
 //console.log(path.join(__dirname,'../public'))
