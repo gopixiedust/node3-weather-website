@@ -6,7 +6,6 @@ const forcast = require('./utils/forecast')
 
 const app = express()
 
-console.log('JUST CHECK!')
 //console.log(__dirname)
 //console.log(path.join(__dirname,'../public'))
 
